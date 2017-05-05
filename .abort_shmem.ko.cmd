@@ -1,0 +1,1 @@
+cmd_chronos/abort_shmem.ko := ld -r -m elf_x86_64 -T /home/ubuntu/chronos/linux-3.0.24-chronos/scripts/module-common.lds --build-id  -o chronos/abort_shmem.ko chronos/abort_shmem.o chronos/abort_shmem.mod.o

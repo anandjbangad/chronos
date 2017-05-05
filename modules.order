@@ -1,0 +1,6 @@
+kernel/chronos/fifo_ra.ko
+kernel/chronos/rma.ko
+kernel/chronos/gfifo.ko
+kernel/chronos/grma.ko
+kernel/chronos/abort_shmem.ko
+kernel/chronos/foo.ko
