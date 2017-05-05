@@ -17,11 +17,11 @@ __attribute__((section(".gnu.linkonce.this_module"))) = {
 static const struct modversion_info ____versions[]
 __used
 __attribute__((section("__versions"))) = {
-	{ 0xcf172cc1, "module_layout" },
-	{ 0xa5b61d52, "rt_sched_arch_stw" },
-	{ 0x7b90ce20, "presched_stw_generic" },
-	{ 0x4fd3c696, "remove_global_scheduler" },
-	{ 0x275f0d8, "add_global_scheduler" },
+	{ 0xb70317a1, "module_layout" },
+	{ 0x638f7877, "rt_sched_arch_stw" },
+	{ 0x26c2ca0a, "presched_stw_generic" },
+	{ 0x1050f52d, "remove_global_scheduler" },
+	{ 0xc0cd6829, "add_global_scheduler" },
 	{ 0x4cbbd171, "__bitmap_weight" },
 	{ 0xb4390f9a, "mcount" },
 };
