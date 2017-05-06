@@ -48,7 +48,7 @@ struct rt_info* sched_foo(struct list_head *head, int flags)
 		if(m_data->owner){
 			long tempPeriod = timespec_to_longh(&best->period);
 		//	struct rt_info *tsk = NULL;
-		if(tempPeriod < m_data->ceil_val){
+		if(tempPeriod > m_data->ceil_val){
 		//	if(best->period < it->abhi){
 				best = m_data->owner; 
 			}
